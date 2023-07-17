@@ -28,11 +28,24 @@ Please use +  += instead concat
 <strong>String.prototype.endsWith(searchString[, length])</strong>
 <br/>
 <i>searchString:</i> 'string'
+<br/>
 <i> length</i> урезать длину строки
 <br/>
 <i>return:</i> true | false
 <br/>
-'Hello world'.endsWith('world)  // true
+'Hello world'.endsWith('world')  // true
+<hr/>
+<strong>String.prototype.includes(searchString[, position])</strong>
+<br/>
+<i>searchString:</i> (String)
+<br/>
+<i>position</i> 0 | 999 (Number) Позиция начала поиска
+<br/>
+<i>return:</i> true | false
+<br/>
+'Hello world'.includes('ello')  // true
+<br/>
+'Hello world'.includes('ello', 3)  // false
 <hr/>
 # Number
 

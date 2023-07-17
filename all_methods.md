@@ -5,7 +5,7 @@
 <br/>
 <strong><i>return:</i></strong> 'a' | undefined
 <br/>
-<i>'Hello world'.at(-1)  // 'd'</i>
+'Hello world'.at(-1)  // 'd'
 <hr/>
 <strong>String.prototype.charAt(index)</strong>
 <br/>
@@ -13,7 +13,7 @@
 <br/>
 <strong><i>return:</i></strong> 'a' | ' '
 <br/>
-<i>'Hello world'.charAt(6)  // 'w'</i>
+'Hello world'.charAt(6)  // 'w'
 <hr/>
 <strong>str.concat(string2, string3[, ..., stringN])</strong>
 <br/>
@@ -21,9 +21,18 @@
 <br/>
 <strong><i>return:</i></strong> 'string'
 <br/>
-<i>console.log('Hello'.concat(' ', 'world'))  // 'Hello world'</i>
+console.log('Hello'.concat(' ', 'world'))  // 'Hello world'
 <br/>
-<i>Please use +  += instead concat</i>i>
+Please use +  += instead concat
+<hr/>
+<strong>str.endsWith(searchString[, length])</strong>
+<br/>
+<strong><i>searchString:</i></strong> 'string'
+<strong><i> length</i></strong> урезать длину строки
+<br/>
+<strong><i>return:</i></strong> true | false
+<br/>
+'Hello world'.endsWith('world)  // true
 <hr/>
 # Number
 

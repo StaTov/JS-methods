@@ -7,7 +7,14 @@
 <br/>
 <i>'Hello world'.at(-1)  // 'd'</i>
 <hr/>
-<strong>String.prototype.charAt()</strong>
+<strong>String.prototype.charAt(index)</strong>
+<br/>
+<strong><i>index:</i></strong> 0 | 99 | Number
+<br/>
+<strong><i>return:</i></strong> 'a' | ''
+<br/>
+<i>'Hello world'.charAt(6)  // 'w'</i>
+<hr/>
 # Number
 
 # Array

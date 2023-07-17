@@ -15,6 +15,16 @@
 <br/>
 <i>'Hello world'.charAt(6)  // 'w'</i>
 <hr/>
+<strong>str.concat(string2, string3[, ..., stringN])</strong>
+<br/>
+<strong><i>string2:</i></strong>  (String)
+<br/>
+<strong><i>return:</i></strong> 'string'
+<br/>
+<i>console.log('Hello'.concat(' ', 'world'))  // 'Hello world'</i>
+<br/>
+<i>Please use +  += instead concat</i>i>
+<hr/>
 # Number
 
 # Array

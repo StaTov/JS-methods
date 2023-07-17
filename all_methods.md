@@ -47,6 +47,18 @@ Please use +  += instead concat
 <br/>
 'Hello world'.includes('ello', 3)  // false
 <hr/>
+<strong>String.prototype.indexOf(searchValue, [fromIndex)</strong>
+<br/>
+<i>searchValue</i> (String)
+<br/>
+<i>fromIndex</i> 0 | 999  (Number)
+<br/>
+<i>return:</i> index('number') | -1
+<br/>
+'Hello world'.indexOf('world')  // 6
+<br/> 
+'Hello world'.indexOf('red')   // -1
+<hr/>
 # Number
 
 # Array

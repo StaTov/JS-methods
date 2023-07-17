@@ -1,9 +1,9 @@
 # String
 <strong>String.prototype.at(value)</strong>
 <br/>
-value = 1 | -1 | Number
+<strog><i>value</i></strong> = 1 | -1 | Number
 <br/>
-=> 'a' | undefined
+<strog><i>return</i></strong> 'a' | undefined
 <br/>
 <i>'Hello world'.at(-1)  // 'd'</i>
 <hr/>

@@ -5,7 +5,7 @@ value = 1 | -1 | Number
 <br/>
 => 'a' | undefined
 <br/>
-'Hello world'.at(-1)  // 'd'
+<i>'Hello world'.at(-1)  // 'd'</i>
 <hr/>
 <strong>String.prototype.charAt()</strong>
 # Number

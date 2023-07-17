@@ -59,6 +59,18 @@ Please use +  += instead concat
 <br/> 
 'Hello world'.indexOf('red')   // -1
 <hr/>
+<strong>String.prototype.lastIndexOf(searchValue, [fromIndex)</strong>
+<br/>
+<i>searchValue</i> (String)
+<br/>
+<i>fromIndex</i> 0 | 999  (Number)
+<br/>
+<i>return:</i> index последнего вхождения ('number') | -1
+<br/>
+'Hello world'.indexOf('world')  // 6
+<br/> 
+'canal'.lastIndexOf('a'); //  3   
+<hr/>
 # Number
 
 # Array

@@ -1,36 +1,36 @@
 # String
 <strong>String.prototype.at(value)</strong>
 <br/>
-<strong><i>value:</i></strong> 1 | -1  (Number)
+<i>value:</i> 1 | -1  (Number)
 <br/>
-<strong><i>return:</i></strong> 'a' | undefined
+<i>return:</i> 'a' | undefined
 <br/>
 'Hello world'.at(-1)  // 'd'
 <hr/>
 <strong>String.prototype.charAt(index)</strong>
 <br/>
-<strong><i>index:</i></strong> 0 | 99 (Number)
+<i>index:</i> 0 | 99 (Number)
 <br/>
-<strong><i>return:</i></strong> 'a' | ' '
+<i>return:</i> 'a' | ' '
 <br/>
 'Hello world'.charAt(6)  // 'w'
 <hr/>
-<strong>str.concat(string2, string3[, ..., stringN])</strong>
+<strong>String.prototupe.concat(string2, string3[, ..., stringN])</strong>
 <br/>
-<strong><i>string2:</i></strong>  (String)
+<i>string2:</i>  (String)
 <br/>
-<strong><i>return:</i></strong> 'string'
+<i>return:</i> 'string'
 <br/>
 console.log('Hello'.concat(' ', 'world'))  // 'Hello world'
 <br/>
 Please use +  += instead concat
 <hr/>
-<strong>str.endsWith(searchString[, length])</strong>
+<strong>String.prototype.endsWith(searchString[, length])</strong>
 <br/>
-<strong><i>searchString:</i></strong> 'string'
-<strong><i> length</i></strong> урезать длину строки
+<i>searchString:</i> 'string'
+<i> length</i> урезать длину строки
 <br/>
-<strong><i>return:</i></strong> true | false
+<i>return:</i> true | false
 <br/>
 'Hello world'.endsWith('world)  // true
 <hr/>

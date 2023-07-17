@@ -6,6 +6,8 @@ value = 1 | -1 | Number
 => 'a' | undefined
 <br/>
 'Hello world'.at(-1)  // 'd'
+<hr/>
+<strong>String.prototype.charAt()</strong>
 # Number
 
 # Array
